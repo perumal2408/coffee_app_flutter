@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'homepage.dart'; // import the HomePage widget
+import 'homepage.dart';
 
 class MyApp extends StatelessWidget {
   @override

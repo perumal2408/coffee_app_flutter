@@ -79,16 +79,16 @@ class _HomePageState extends State<HomePage> {
                             child: Text(
                               'Order Now',
                               style: TextStyle(
-                                  color: Colors.white), // make text color white
+                                  color: Colors.white),
                             ),
                             style: ButtonStyle(
                               backgroundColor: MaterialStateProperty.all<Color>(
-                                  Color(0xFF00714B)), // background color
+                                  Color(0xFF00714B)),
                               shape: MaterialStateProperty.all<
                                   RoundedRectangleBorder>(
                                 RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(
-                                      5.0), // simple border radius
+                                      5.0), 
                                 ),
                               ),
                             ),
@@ -111,7 +111,7 @@ class _HomePageState extends State<HomePage> {
           );
         },
         child: Icon(Icons.shopping_cart),
-        backgroundColor: Colors.white, // make background color white
+        backgroundColor: Colors.white,
       ),
     );
   }

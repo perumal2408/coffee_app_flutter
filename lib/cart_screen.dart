@@ -12,8 +12,8 @@ class CartScreen extends StatelessWidget {
         title: Text(
           'Your Order',
           style: TextStyle(
-            color: Colors.green, // make text color green
-            fontWeight: FontWeight.bold, // make text bold
+            color: Colors.green,
+            fontWeight: FontWeight.bold, 
           ),
         ),
       ),
@@ -22,7 +22,6 @@ class CartScreen extends StatelessWidget {
         itemBuilder: (context, index) {
           String key = cartItems.keys.elementAt(index);
           return Card(
-            // wrap with Card
             child: ListTile(
               title: Text('$key (${cartItems[key]})'),
             ),
